@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MealDonationApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MealDonationApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MealDonationApplication.class, args);
+    }
 
 }
