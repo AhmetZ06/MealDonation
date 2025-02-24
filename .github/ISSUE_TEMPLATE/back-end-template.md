@@ -7,14 +7,6 @@ assignees: AhmetZ06
 
 ---
 
----
-name: "Backend Development Task"
-about: "Propose a new backend feature, fix, or refactoring task"
-title: "[BACKEND] <Short Summary of the Task>"
-labels: ["backend", "enhancement"]
-assignees: []
----
-
 ## Summary
 
 > **What problem are we solving?**  
