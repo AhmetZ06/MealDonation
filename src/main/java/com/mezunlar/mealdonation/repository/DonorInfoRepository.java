@@ -1,6 +1,6 @@
-package com.mezunlar.mealdonation.Repository;
+package com.mezunlar.mealdonation.repository;
 
-import com.mezunlar.mealdonation.Model.DonorInfo;
+import com.mezunlar.mealdonation.model.DonorInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

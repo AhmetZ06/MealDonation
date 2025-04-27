@@ -1,4 +1,4 @@
-package com.mezunlar.mealdonation.Model;
+package com.mezunlar.mealdonation.model;
 
 import com.mezunlar.mealdonation.enums.MealRequestStatus;
 import jakarta.persistence.*;

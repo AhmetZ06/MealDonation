@@ -1,4 +1,4 @@
-package com.mezunlar.mealdonation.Model;
+package com.mezunlar.mealdonation.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -14,7 +14,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class UserDetails {
+public class UserDetailedInfo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
