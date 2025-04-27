@@ -1,4 +1,4 @@
-package com.mezunlar.mealdonation.service;
+package com.mezunlar.mealdonation.service.user;
 
 import com.mezunlar.mealdonation.model.User;
 import com.mezunlar.mealdonation.repository.UserRepository;
@@ -10,11 +10,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class UserService implements UserDetailsService {
+public class UserServiceImpl implements IUserService {
 
     private final UserRepository userRepository;
 
-    public UserService(UserRepository userRepository) {
+    public UserServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 

@@ -1,4 +1,4 @@
-package com.mezunlar.mealdonation.service.impl;
+package com.mezunlar.mealdonation.service.refreshtoken;
 
 import java.util.Date;
 import java.util.Optional;
@@ -13,10 +13,9 @@ import com.mezunlar.mealdonation.jwt.RefreshTokenRequest;
 import com.mezunlar.mealdonation.model.RefreshToken;
 import com.mezunlar.mealdonation.model.User;
 import com.mezunlar.mealdonation.repository.RefreshTokenRepository;
-import com.mezunlar.mealdonation.service.IRefreshTokenService;
 
 @Service
-public class RefreshTokenServiceImpl implements IRefreshTokenService{
+public class RefreshTokenServiceImpl implements IRefreshTokenService {
 
     @Autowired
     private RefreshTokenRepository refreshTokenRepository;

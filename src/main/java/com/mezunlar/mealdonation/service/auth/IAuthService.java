@@ -1,16 +1,13 @@
-package com.mezunlar.mealdonation.controller;
+package com.mezunlar.mealdonation.service.auth;
 
 import com.mezunlar.mealdonation.dto.DtoRegister;
 import com.mezunlar.mealdonation.dto.DtoUser;
 import com.mezunlar.mealdonation.dto.AuthRequest;
 import com.mezunlar.mealdonation.dto.AuthResponse;
-import com.mezunlar.mealdonation.jwt.RefreshTokenRequest;
 
-public interface IRestAuthController {
+public interface IAuthService {
 
     public DtoUser register(DtoRegister request);
 
     public AuthResponse authenticate(AuthRequest request);
-
-    public AuthResponse refreshToken(RefreshTokenRequest request);
 }

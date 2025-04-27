@@ -1,14 +1,12 @@
-package com.mezunlar.mealdonation.service.impl;
+package com.mezunlar.mealdonation.service.auth;
 
 
 import java.util.Date;
-import java.util.Optional;
 import java.util.UUID;
 
 import com.mezunlar.mealdonation.dto.DtoRegister;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -23,11 +21,10 @@ import com.mezunlar.mealdonation.model.RefreshToken;
 import com.mezunlar.mealdonation.model.User;
 import com.mezunlar.mealdonation.repository.RefreshTokenRepository;
 import com.mezunlar.mealdonation.repository.UserRepository;
-import com.mezunlar.mealdonation.service.IAuthService;
 
 @Service
 @RequiredArgsConstructor
-public class AuthServiceImpl implements IAuthService{
+public class AuthServiceImpl implements IAuthService {
 
     private final UserRepository userRepository;
     private final BCryptPasswordEncoder passwordEncoder;
